@@ -1,0 +1,122 @@
+.insta-container{
+    border: 3px solid black;
+    width: 700px;
+    height: 750px;
+    margin: 0px auto;
+    background-color:#FAFAFA;
+}
+
+/* nav-bar 해당부분 */
+.nav-bar{
+    border-bottom: 1px solid rgb(212, 205, 205);
+    background-color: white;
+}
+
+.insta-logo{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.account{
+    float: right;
+    /* margin: 15px 40px 15px 0px; */
+}
+
+.login, .signup{
+    display: inline-block;
+    padding: 15px;
+}
+
+.login{
+    background-color: skyblue;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.signup{
+    color: skyblue;
+}
+
+.search{
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    border: 1px solid #e7e5e5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* user해당부분 */
+.user{
+    margin-bottom: -50px;
+}
+
+.user-img{
+    width: 250px;
+    height: 250px;
+}
+
+.main-pic, .user-info{
+    display:inline-block;
+}
+
+.user-info{
+    position: relative;
+    left: 40px;
+    bottom: 70px;
+}
+.user-name{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.follow-btn{
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    /* margin-bottom: 5px; */
+}
+.info-item{
+    margin-bottom: 10px;
+}
+/* 하이라이트해당부분 */
+
+.highlight{
+    margin-left: 40px;
+}
+
+.highlight-pic{
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.highlight-content{
+    display: inline-block;
+    margin: 10px;
+}
+
+/* post해당부분 */
+
+.post{
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+.post-content{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+/* 사진 */
+.pic1{
+    display: inline-block;
+    width: 31%;
+    height: 180px;
+    border: 1px solid gray;
+    margin: 5px;
+}
